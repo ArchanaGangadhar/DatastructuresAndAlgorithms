@@ -6,7 +6,7 @@ public class Main {
 
 //        callAllProjects();
 
-        ShellSort.shellSortList();
+       MergeSort.mergeSortList();
 
     }
 
@@ -14,6 +14,7 @@ public class Main {
         BubbleSort.bubbleSortList();
         SelectionSort.sortListSelectionSort();
         InsertionSort.sortListInsertionSort();
+        ShellSort.shellSortList();
     }
 
 
