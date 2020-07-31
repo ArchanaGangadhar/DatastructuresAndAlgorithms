@@ -1,9 +1,11 @@
 package com.archietech;
 
+import com.archietech.utilities.PrintIntList;
+
 public class SelectionSort {
 
     public static void sortListSelectionSort() {
-        int[] sortArray = new int[]{20, 4, -56, 0, 98, 45, -90, 50};
+        Integer[] sortArray = new Integer[]{20, 4, -56, 0, 98, 45, -90, 50};
 
         for(int i = sortArray.length-1; i > 0; i--){
             int largestNumberIndex = 0;
@@ -14,23 +16,17 @@ public class SelectionSort {
             switchItems(sortArray, largestNumberIndex, i);
         }
 
-        printItems(sortArray);
+        PrintIntList.printSortedList(sortArray);
 
     }
 
-    public static void switchItems(int[] sortArray, int i, int j ){
+    public static void switchItems(Integer[] sortArray, int i, int j ){
         if(i == j)
             return;
 
         int tempItem = sortArray[i];
         sortArray[i] = sortArray[j];
         sortArray[j] =  tempItem;
-    }
-
-    public static void printItems(int[] sortedArray){
-        for(int i = 0; i < sortedArray.length; i++){
-            System.out.println(sortedArray[i]);
-        }
     }
 
 

@@ -1,5 +1,7 @@
 package com.archietech;
 
+import com.archietech.utilities.PrintIntList;
+
 public class BubbleSort {
 
     public static void bubbleSortList(){
@@ -13,14 +15,8 @@ public class BubbleSort {
             }
         }
 
-        printSortedList(sortArray);
+        PrintIntList.printSortedList(sortArray);
 
-    }
-
-    public static void printSortedList(Integer[] sortedArray){
-
-        for(int i = 0; i < sortedArray.length; i++)
-            System.out.println(sortedArray[i]);
     }
 
     public static void swapItems(Integer[] arrayList, int a, int b){
