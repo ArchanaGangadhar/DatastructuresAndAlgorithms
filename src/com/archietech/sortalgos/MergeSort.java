@@ -1,7 +1,7 @@
-package com.archietech;
+package com.archietech.sortalgos;
 
 
-import com.archietech.utilities.PrintIntList;
+import com.archietech.utilities.PrintList;
 
 public class MergeSort {
 
@@ -10,7 +10,7 @@ public class MergeSort {
 
       splitAndMerge(arrayToSort, 0, arrayToSort.length);
 
-      PrintIntList.printSortedList(arrayToSort);
+      PrintList.printSortedList(arrayToSort);
   }
 
   //end is last index + 1

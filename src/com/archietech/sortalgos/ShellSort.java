@@ -1,6 +1,6 @@
-package com.archietech;
+package com.archietech.sortalgos;
 
-import com.archietech.utilities.PrintIntList;
+import com.archietech.utilities.PrintList;
 
 public class ShellSort {
 
@@ -25,7 +25,7 @@ public class ShellSort {
             }
         }
 
-        PrintIntList.printSortedList(arrayToSort);
+        PrintList.printSortedList(arrayToSort);
 
 
 

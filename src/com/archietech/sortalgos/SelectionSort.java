@@ -1,6 +1,6 @@
-package com.archietech;
+package com.archietech.sortalgos;
 
-import com.archietech.utilities.PrintIntList;
+import com.archietech.utilities.PrintList;
 
 public class SelectionSort {
 
@@ -16,7 +16,7 @@ public class SelectionSort {
             switchItems(sortArray, largestNumberIndex, i);
         }
 
-        PrintIntList.printSortedList(sortArray);
+        PrintList.printSortedList(sortArray);
 
     }
 

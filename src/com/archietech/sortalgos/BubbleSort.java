@@ -1,6 +1,6 @@
-package com.archietech;
+package com.archietech.sortalgos;
 
-import com.archietech.utilities.PrintIntList;
+import com.archietech.utilities.PrintList;
 
 public class BubbleSort {
 
@@ -15,7 +15,7 @@ public class BubbleSort {
             }
         }
 
-        PrintIntList.printSortedList(sortArray);
+        PrintList.printSortedList(sortArray);
 
     }
 
